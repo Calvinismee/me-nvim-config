@@ -4,6 +4,8 @@ A personal Neovim configuration built from scratch using `lazy.nvim`.
 
 The goal of this setup is to build a lightweight development environment while understanding every component instead of using a preconfigured distribution.
 
+![Telescope](./img/1.png)
+![Oil](./img/2.png)
 ---
 
 # Table of Contents
