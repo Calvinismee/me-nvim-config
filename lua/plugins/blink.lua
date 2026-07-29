@@ -5,17 +5,16 @@ return {
     dependencies = {
       "rafamadriz/friendly-snippets",
     },
-    config = function()
-      require("blink.cmp").setup({
-        keymap = {
-          preset = "default",
+    opts = {
+      keymap = {
+        preset = "default",
 
-          ["<CR>"] = {
-            "accept",
-            "fallback",
-          },
-        },
-      })
-    end,
+        ["<CR>"] = { "accept", "fallback" },
+      },
+
+      appearance = {
+        nerd_font_variant = "mono",
+      },
+    },
   },
 }
