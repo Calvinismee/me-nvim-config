@@ -7,6 +7,7 @@ return {
         "ts_ls",
         "pyright",
         "clangd",
+        "rust_analyzer"
       })
 
       vim.keymap.set("n", "gd", vim.lsp.buf.definition)
